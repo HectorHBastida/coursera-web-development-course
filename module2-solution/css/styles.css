@@ -1,10 +1,80 @@
 /***Base Style***/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+	margin: 20px 0 30px 0;
+}
+
+h2 {
+	width: 100px;
+	font-size: 1.25em;
+	border: 1px solid #000000;
+	text-align: center;
+	float: right;
+}
+
+section {
+	padding: 10px;
+	background-color: #D9D9D9;
+	border: 1px solid #000000;
+	float: left;
+}
+
+.section-1 h2{
+	background-color: #ffffcc;
+}
+
+.section-2 h2{
+	background-color: #ffc299;
+}
+
+.section-3 h2{
+	background-color: #b3ffcc;
+}
 
 
 /***Desktop View***/
-
+@media (min-width: 992px) {
+	.section-1 {
+		width: 33.33%
+	}
+	.section-2 {
+		width: 33.33%
+	}
+	.section-3 {
+		width: 33.33%;
+	}
+}
 
 /***Tablet View***/
-
+@media (min-width: 768px) and (max-width: 991px) {
+	.section-1 {
+		width: 50%;
+	}
+	.section-2 {
+		width: 50%;
+	}
+	.section-3 {
+		width: 100%;
+	}
+}
 
 /***Mobile View***/
+@media (max-width: 767px) {
+	.section-1 {
+		width: 100%;
+	}
+	.section-2 {
+		width: 100%;
+	}
+	.section-3 {
+		width: 100%;
+	}
+}
