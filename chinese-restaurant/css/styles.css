@@ -123,12 +123,27 @@ body {
 	.navbar-brand p img {  /*Star-K*/
 		height: 20px;
 	}
-	#collapsable-nav a {  /*Collapsed nav menu glyph*/
+	#collapsable-nav a {  /*Collapsed nav menu text*/
 		font-size: 1.2em;
 	}
-	#collapsable-nav a span {
+	#collapsable-nav a span {  /*Collapsed nav menu glyph*/
 		font-size: 1em;
 		margin-right: 5px;
+	}
+	#call-btn > a {
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+		display: block;
+		font-size: 1.5em;
+		margin: 0 20px;
+		padding: 10px;
+	}
+	#xs-deliver {
+		font-size: .7em;
+		letter-spacing: .1em;
+		margin-top: 5px;
+		text-transform: uppercase;
 	}
 	/* End Header*/
 }
