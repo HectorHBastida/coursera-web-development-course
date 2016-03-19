@@ -9,3 +9,38 @@ body {
 /***********
 	  END BASIC STYLES
 ***********/
+
+/***********
+	  HEADER STYLES
+***********/
+#header-nav {
+	background-color: #F2B812;
+	border: 0;
+	border-radius: 0;
+}
+#brand-text {
+	color: #fff;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+#collapsable-nav #nav-list {
+	background-color: #EBCC4E;
+	color: #000;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #f2de8c;
+	color: #333;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #fff;
+}
+/***********
+	  END HEADER STYLES
+***********/
