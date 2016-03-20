@@ -2,21 +2,26 @@
 	  BASIC STYLES
 ***********/
 body {
+	box-sizing: border-box;
 	font-size: 16px;
 	color: #1a1a1a;
   font-family: 'Source Sans Pro', sans-serif;
+}
+.text-center {
+	margin: 0;
 }
 /***********
 	  END BASIC STYLES
 ***********/
 
 /***********
-	  HEADER STYLES
+	  NAVIGATION STYLES
 ***********/
 #header-nav {
 	background-color: #F2B812;
 	border: 0;
 	border-radius: 0;
+	margin-bottom: 0;
 }
 #brand-text {
 	color: #fff;
@@ -42,5 +47,83 @@ body {
 	border: 1px solid #fff;
 }
 /***********
+	  END NAVIGATION STYLES
+***********/
+
+/***********
+	  HEADER STYLES
+***********/
+.jumbotron {
+	background-color: #fff;
+	margin: 0;
+}
+/***********
 	  END HEADER STYLES
+***********/
+
+/***********
+	  FOOTER STYLES
+***********/
+.panel-footer {
+	background-color: #ffffcc;
+}
+.panel-footer p a:hover {
+	text-decoration: none;
+}
+/***********
+	  END FOOTER STYLES
+***********/
+
+/***********
+	  BODY STYLES
+***********/
+#content {
+	margin-bottom: 50px;
+}
+#chicken, #beef, #sushi {
+	background-color:  #f2f2f2;
+	margin: 13px 0;
+	padding: 17px 17px 35px;
+	position: relative;
+}
+#chicken h3, #beef h3, #sushi h3 {
+	margin: 5px 0 15px;
+}
+#chicken a, #beef a, #sushi a {
+	margin-bottom: 10px;
+	position: absolute;
+	bottom: 0;
+}
+/***********
+	  END BODY STYLES
+***********/
+
+/***********
+	  MEDIA QUERIES
+***********/
+@media (max-width: 767px) {
+	section #chicken, section #beef, section #sushi {
+		min-height: auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	section #sushi {
+		min-height: auto;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+	#chicken, #beef, #sushi {
+		min-height: 850px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#chicken, #beef, #sushi {
+		min-height: 700px;
+	}
+}
+/***********
+	  MEDIA QUERIES
 ***********/
